@@ -4,7 +4,7 @@ class S5cmd < Formula
   homepage "https://github.com/magarrigue/s5cmd"
 
   # Source code archive. Each tagged release will have one
-  url "https://github.com/magarrigue/s5cmd/archive/v6.0.1.tar.gz"
+  url "https://github.com/magarrigue/s5cmd/archive/v0.6.1.tar.gz"
   sha256 "70d89cc5f4d5c26aff6af716e3a6bb5d17bc084fa09c89312ac4eb69ae468a2a"
   head "https://github.com/magarrigue/s5cmd"
 
