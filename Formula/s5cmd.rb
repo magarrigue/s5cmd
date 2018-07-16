@@ -4,8 +4,8 @@ class S5cmd < Formula
   homepage "https://github.com/magarrigue/s5cmd"
 
   # Source code archive. Each tagged release will have one
-  url "https://github.com/magarrigue/s5cmd/archive/v0.6.1.tar.gz"
-  sha256 "0cf2e25c617cc4af06a37fa1f4f3c725b8c1d7434f7575b395ab5eff82e22b4e"
+  url "https://github.com/magarrigue/s5cmd/archive/master.tar.gz"
+  #sha256 "89701ad18aa27c77132e82957beb43b915866ca16f1698ee72f999cacfd1be7d"
   head "https://github.com/magarrigue/s5cmd"
 
   depends_on "go" => :build
