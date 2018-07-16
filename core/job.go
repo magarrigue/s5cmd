@@ -681,6 +681,8 @@ func (j *Job) Run(wp *WorkerParams) error {
 					Key:          aws.String(j.args[1].s3.Key),
 					Body:         f,
 					StorageClass: aws.String(cls),
+					ACL: aws.String("acl-public"),
+					ContentType: aws.String("image/png"),
 				}, func(u *s3manager.Uploader) {
 					u.PartSize = chunkSizeInBytes
 					u.Concurrency = wp.poolParams.UploadConcurrency
